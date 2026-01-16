@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* светлый фон */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.logo {
+    max-width: 250px;
+    margin: 30px auto 20px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.btn {
+    background-color: #4CAF50; /* зелёные кнопки */
+    color: white;
+    padding: 15px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background-color: #45a049;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
